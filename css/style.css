@@ -73,7 +73,7 @@ button {
     display: flex;
     justify-content: space-between;
 }
-/* banner text */
+/* banner text style */
 .banner-text {
     margin-top: 80px;
 }
@@ -140,8 +140,19 @@ button.go-rogue {
     width: 100%;
 }
 
-
-
+/* play instantly section style */
+.play-instantly-section {
+    padding: 100px 0;
+}
+.play-instantly {
+    display: flex;
+    gap: 100px;
+}
+.img-badge {
+    position: relative;
+    right: 150px;
+    bottom: 300px;
+}
 
 
 
@@ -151,7 +162,8 @@ button.go-rogue {
     nav, 
     nav ul,
     .banner,
-    .card-img-container {
+    .card-img-container,
+    .play-instantly {
         flex-direction: column;
     }
     /* banner section */
@@ -163,5 +175,17 @@ button.go-rogue {
     .card {
         width: 370px;
         height: auto;
+    }
+    .img-area img  {
+        width: 100%;
+    }
+    .img-badge {
+        position: relative;
+        right: 50px;
+        bottom: 200px;
+    }
+    .img-badge img {
+        width: 200px;
+        height: 250px;
     }
 }
