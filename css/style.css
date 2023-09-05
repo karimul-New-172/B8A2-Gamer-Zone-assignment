@@ -154,6 +154,51 @@ button.go-rogue {
     bottom: 300px;
 }
 
+/* footer area styles */
+footer {
+    background-color: #0B0223;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+}
+footer .logo-text {
+    color: #fff;
+}
+footer .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.link-item,
+.social-links,
+.privacy-links {
+    margin-bottom: 40px;
+}
+.link-item ul,
+.social-links ul,
+.privacy-links ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    justify-content: center;
+}
+.link-item ul a,
+.social-links ul a,
+.privacy-links ul a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 600;
+}
+.link-item ul a:hover,
+.social-links ul a:hover,
+.privacy-links ul a:hover {
+    color: #ccc;
+}
+p.copyright {
+    font-size: 12px;
+}
 
 
 
@@ -187,5 +232,15 @@ button.go-rogue {
     .img-badge img {
         width: 200px;
         height: 250px;
+    }
+    /* footer section */
+    .link-item ul,
+    .social-links ul,
+    .privacy-links ul {
+        flex-wrap: wrap;
+    }
+    .social-links ul {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
